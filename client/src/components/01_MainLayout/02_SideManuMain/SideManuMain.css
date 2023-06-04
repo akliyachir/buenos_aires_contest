@@ -17,3 +17,24 @@
  background-color:darkgoldenrod;
  transition: 600ms ease-in-out;
 }
+
+.closeIconSideMenu {
+ position: absolute;
+ right: 1rem;
+ top: 1rem;
+}
+
+.closeIconSideMenu > * {
+ font-size: 2rem;
+ cursor: pointer;
+ transition: 200ms ease-in-out;
+ color: #222;
+
+}
+
+.closeIconSideMenu > *:hover {
+ font-size: 2.2rem;
+ transition: 200ms ease-in-out;
+ cursor: pointer;
+
+}
