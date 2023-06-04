@@ -1,9 +1,16 @@
 import "./HamburgerButton.css";
+import { MenuToggleContext } from "../../../../../../context/MenuContext";
+import { useContext } from "react";
 
 export default function HamburgerButton() {
-  return (
-    <div className='HamburgerButton'>
-     <span></span><span></span><span></span>
+
+const {isMenuOpen, setIsMenuOpen} = useContext(MenuToggleContext);
+
+ return (
+    <div className='HamburgerButton' onClick={() => {setIsMenuOpen(!isMenuOpen)}}>
+     <span></span>
+     <span></span>
+     <span></span>
     </div>
   )
 }

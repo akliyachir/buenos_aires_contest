@@ -1,6 +1,19 @@
-.SideManuMain {
+
+.SideManuMainOpen {
+ z-index: 10;
  position: absolute;
  width: 100%;
  height: 100vh;
  background-color:darkgoldenrod;
+ transition: 600ms ease-in-out;
+}
+.SideManuMainClosed {
+ z-index: 10;
+ position: absolute;
+ width: 100%;
+ height: 100vh;
+ transform: translateX(-100%);
+ background-position-x: -105%;
+ background-color:darkgoldenrod;
+ transition: 600ms ease-in-out;
 }

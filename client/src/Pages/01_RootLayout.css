@@ -1,5 +1,18 @@
-.RootLayout {
+
+.RootLayoutOpen{
  background-color: rgb(137, 250, 226);
  height: 100vh;
  width: 100%;
+ transition: 600ms ease-in-out;
+ scale: 95%;
+
+}
+
+.RootLayoutClosed{
+ background-color: rgb(137, 250, 226);
+ height: 100vh;
+ width: 100%;
+ transition: 600ms ease-in-out;
+ scale: 100%;
+
 }

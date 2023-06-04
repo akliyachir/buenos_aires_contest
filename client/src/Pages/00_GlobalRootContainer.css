@@ -1,3 +1,6 @@
 .GlobalRootContainer {
  background-color: yellow;
+ display: flex;
+ justify-content: center;
+ align-items: center;
 }
