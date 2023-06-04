@@ -1,3 +1,19 @@
 .SocialMediaIconCluster {
- background-color: blanchedalmond;
+ position: absolute;
+ top: 1rem;
+ left: 1rem;
+ display: flex;
+ gap: 2rem;
+}
+
+.SocialMediaIconCluster a {
+ color: #111;
+ font-size: 1.5rem;
+ transition: 200ms ease-in-out;
+}
+
+
+.SocialMediaIconCluster a:hover {
+ color: #1f44a8;
+transition: 200ms ease-in-out;
 }
