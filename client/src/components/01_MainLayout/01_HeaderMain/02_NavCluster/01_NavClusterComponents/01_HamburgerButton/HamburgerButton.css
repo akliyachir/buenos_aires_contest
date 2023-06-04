@@ -1,3 +1,16 @@
 .HamburgerButton {
- background-color: red;
+
+ display: flex;
+ flex-direction: column;
+ gap: .2rem;
+ justify-content: center;
+ padding: .2rem;
+}
+
+.HamburgerButton span {
+ background-color: black;
+ display: block;
+ width: 1.5rem;
+ height: .18rem;
+ border-radius: .2rem;
 }

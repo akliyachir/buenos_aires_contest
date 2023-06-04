@@ -1,7 +1,6 @@
-.LogoHeader {
-
-}
-
+ .LogoHeader {
+cursor: pointer;
+ }
 .LogoHeaderText {
  font-size: 2.2rem;
 }

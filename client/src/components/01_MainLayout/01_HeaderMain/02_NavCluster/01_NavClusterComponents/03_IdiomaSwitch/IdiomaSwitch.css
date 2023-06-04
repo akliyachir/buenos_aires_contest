@@ -1,3 +1,6 @@
 .IdiomaSwitch {
- background-color: blue;
+ font-size: 1.2rem;
+ display: flex;
+ align-items: center;
+ padding-block: .3rem;
 }

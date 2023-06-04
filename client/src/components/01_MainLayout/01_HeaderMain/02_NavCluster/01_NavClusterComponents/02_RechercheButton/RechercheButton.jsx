@@ -1,11 +1,11 @@
 import "./RechercheButton.css";
-import {GoSearch} from "react-icons/go"
+import {BiSearchAlt} from "react-icons/bi"
 
 
 export default function RechercheButton() {
   return (
     <div className='RechercheButton'>
-     <GoSearch/>
+     <BiSearchAlt/>
     </div>
   )
 }

@@ -2,6 +2,8 @@ import "./HamburgerButton.css";
 
 export default function HamburgerButton() {
   return (
-    <div className='HamburgerButton'>HamburgerButton</div>
+    <div className='HamburgerButton'>
+     <span></span><span></span><span></span>
+    </div>
   )
 }

@@ -1,0 +1,11 @@
+.NavCluster {
+ display: flex;
+ gap: .85rem;
+ align-items: center;
+ justify-content: center;
+ padding-inline: .7rem;
+}
+
+.NavCluster > * {
+ cursor: pointer;
+}
