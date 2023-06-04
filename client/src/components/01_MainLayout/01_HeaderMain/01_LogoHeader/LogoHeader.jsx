@@ -9,7 +9,7 @@ export default function LogoHeader() {
         BUENOSAIRES
         </span>
         <span className="logoNoneBoldPart">
-        CONTEXT
+        CONTEST
         </span>
          </h1>
     </div>

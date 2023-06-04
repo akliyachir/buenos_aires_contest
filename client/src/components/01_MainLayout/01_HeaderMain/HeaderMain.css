@@ -1,7 +1,8 @@
 .HeaderMain {
  background-color:#f1f1f1;
  padding: .5rem;
- padding-inline: 1.4rem;
-
- 
+ padding-inline: 1.3rem;
+display: flex;
+justify-content: space-between;
+align-items: center;
 }
