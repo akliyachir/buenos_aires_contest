@@ -1,16 +1,15 @@
 import { createContext } from 'react';
 
 
-export const MenuActivationContext = createContext(false);
+export const MenuToggleContext = createContext(false);
 
-export default function MenuActivationContextProvider({children}) {
+export default function MenuToggleContextProvider({children}) {
   
-const [menuIsOpen, setMenuIsOpen] = useState(true)
+const [isMenuOpen, setIsMenuOpen] = useState(false)
 
  return (
-
-<MenuActivationContext.Provider value={{menuIsOpen, setMenuIsOpen}} >
+<MenuToggleContext.Provider value={{isMenuOpen, setIsMenuOpen}} >
  {children}
-</MenuActivationContext.Provider>
+</MenuToggleContext.Provider>
   )
 }
