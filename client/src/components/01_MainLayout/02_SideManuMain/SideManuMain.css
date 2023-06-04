@@ -4,8 +4,10 @@
  position: absolute;
  width: 100%;
  height: 100vh;
- background-color:darkgoldenrod;
- transition: 600ms ease-in-out;
+ background-color:#f1f1f1;
+ transition: 500ms ease-in-out;
+ box-shadow: 1px 1px 14px #00000033;
+ 
 }
 .SideManuMainClosed {
  z-index: 10;
@@ -14,8 +16,9 @@
  height: 100vh;
  transform: translateX(-100%);
  background-position-x: -105%;
- background-color:darkgoldenrod;
- transition: 600ms ease-in-out;
+ background-color:#f1f1f1;
+ transition: 300ms ease-in-out;
+ box-shadow: 1px 1px 1px #00000077;
 }
 
 .closeIconSideMenu {
@@ -37,4 +40,13 @@
  transition: 200ms ease-in-out;
  cursor: pointer;
 
+}
+
+.menuItemsList {
+ padding: 2rem;
+
+}
+
+.menuItemsList li {
+ padding: 1rem;
 }
