@@ -3,12 +3,14 @@ import { createContext } from 'react';
 
 export const MenuActivationContext = createContext(false);
 
-import React from 'react'
-
-export default function MenuActivationProvider() {
+export default function MenuActivationContextProvider({children}) {
   
+const [menuIsOpen, setMenuIsOpen] = useState(true)
+
  return (
 
-    <div>MenuActi</div>
+<MenuActivationContext.Provider value={{menuIsOpen, setMenuIsOpen}} >
+ {children}
+</MenuActivationContext.Provider>
   )
 }
