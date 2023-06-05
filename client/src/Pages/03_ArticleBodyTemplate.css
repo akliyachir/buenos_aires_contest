@@ -1,8 +1,19 @@
+.ArticleBodyTemplate {
+display: flex;
+justify-content: center;
+align-items: center;
 
+}
+
+.ArticleBodyTemplateContent {
+ max-width: 900px;
+
+}
 
 .ArticleBodyTemplate .art_title {
  padding-top: 1.5rem;
  padding-inline: 1.2rem;
+ 
 }
 
 .ArticleBodyTemplate .art_by {

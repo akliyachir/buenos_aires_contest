@@ -10,7 +10,7 @@
 
 .FooterMain a {
  text-decoration: none;
- color: rgb(189, 132, 243);
+ color: rgb(231, 195, 34);
 }
 
 .separationHorizontale {
@@ -19,4 +19,10 @@
  background-color: #eee;
  min-width: 300px;
 
+}
+
+.linkedinCentre {
+ text-align: center;
+ font-size: 3rem;
+ margin-top: 1rem;
 }

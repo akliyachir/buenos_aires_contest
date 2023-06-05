@@ -9,7 +9,10 @@ export default function SideManuMain() {
   const { isMenuOpen, setIsMenuOpen } = useContext(MenuToggleContext);
 
   return (
-    <div className={isMenuOpen ? "SideManuMainOpen" : "SideManuMainClosed"}>
+    <div
+      id="haut"
+      className={isMenuOpen ? "SideManuMainOpen" : "SideManuMainClosed"}
+    >
       <div
         className="closeIconSideMenu"
         onClick={() => {
@@ -19,7 +22,7 @@ export default function SideManuMain() {
         <AiOutlineCloseCircle />
       </div>
       <SocialMediaIconCluster />
-      <div className="menuItemsList" id="haut">
+      <div className="menuItemsList">
         {ItemSideMenuList.map((item) => {
           const {
             side_menu_item_id,
