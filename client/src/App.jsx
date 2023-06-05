@@ -5,16 +5,21 @@ import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider,  
 // -- pages import
 import GlobalRootContainer from "./Pages/00_GlobalRootContainer";
 import ArticleBodyTemplate from "./Pages/03_ArticleBodyTemplate";
+import ArticlesListBodyLanding from "./Pages/02_ArticlesListBodyLanding";
 
 
 
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route path="/" element={<GlobalRootContainer/>} >
-        <Route path="/article/:art_link_params" element={<ArticleBodyTemplate/>}/>
-    </Route>
-  )
+
+<Route path="/" element={<GlobalRootContainer/>}>
+  <Route path="/" element={<ArticlesListBodyLanding/>} />
+  <Route path="/article/:art_link_params" element={<ArticleBodyTemplate/>} />
+  
+</Route>
+  
+      )
 )
 
 function App() {

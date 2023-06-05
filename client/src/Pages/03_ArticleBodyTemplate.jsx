@@ -1,12 +1,14 @@
-import {useParams} from "react-router-dom"
+import "./03_ArticleBodyTemplate.css";
+import {useParams} from "react-router-dom";
 
 export default function ArticleBodyTemplate() {
- const foo = useParams();
+ const {art_link_params} = useParams();
   return (
     <div className='ArticleBodyTemplate'>
      <h1>
-     foo
+     {art_link_params}
      </h1>
+     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque unde sit aut ex possimus facere temporibus iusto placeat earum repellat atque rerum consectetur officia voluptatibus, aperiam quos. Ut, aliquam ipsum?</p>
      </div>
   )
 }
