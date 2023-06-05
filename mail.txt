@@ -1,9 +1,9 @@
-Bonjour,
+Bonjour Madame,
 
 J'ai pris l'initiative de reconstruire votre plateforme, en espérant ainsi me démarquer à l'égard des autres candidats.
 
 https://buenosairescontest.netlify.com
 
-En pièce jointe au courriel mon cv en français.
+En pièce jointe à ce courriel mon cv en français.
 
-A propos de la reconstruction :
+La reconstruction s'est faite "from scratch", sans rien recopier de la plateforme originale, hormis le texte des articles et des liens pour les photos affichées.

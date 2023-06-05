@@ -13,7 +13,7 @@ export default function LogoHeader() {
         <span className="logoNoneBoldPart">
         CONTEST
         </span>
-         </h1>
+          </h1>
       </NavLink>
     </div>
   )
