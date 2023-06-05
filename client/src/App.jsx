@@ -4,6 +4,7 @@ import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider,  
 
 // -- pages import
 import GlobalRootContainer from "./Pages/00_GlobalRootContainer";
+import ArticleBodyTemplate from "./Pages/03_ArticleBodyTemplate";
 
 
 
@@ -11,7 +12,7 @@ import GlobalRootContainer from "./Pages/00_GlobalRootContainer";
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<GlobalRootContainer/>} >
-        
+        <Route path="/article/:art_link_params" element={<ArticleBodyTemplate/>}/>
     </Route>
   )
 )

@@ -49,3 +49,8 @@ color: #fff;
 font-size: 1.1rem;
 margin-top: .5rem;
 }
+
+.ArticlesListBodyLanding a {
+  text-decoration: none;
+  color: inherit;
+}
