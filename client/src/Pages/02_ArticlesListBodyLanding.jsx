@@ -14,7 +14,7 @@ export default function ArticlesListBodyLanding() {
             <div key={art_id} className="articleVignetteLandingPage"
             style={{backgroundImage: "url(" + art_pic_link + ")"}}
             >
-              <NavLink to={"/article/" + art_link_params} >
+              <NavLink to={"/article/" + art_id} >
               <div className="artcileVignetteBlackFilter">
               <p className="art_title_tag">{art_title_tag}</p>
               <h4 className="art_title">{art_title}</h4>
