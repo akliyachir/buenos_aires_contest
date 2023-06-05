@@ -23,6 +23,15 @@ export default function ArticleBodyTemplate() {
         by <span className="regularEnphasis">{art_by + `  `}</span>
         <span>{`    ` + art_date}</span>
       </p>
+      <div
+        className="art_pic_link"
+        style={{ backgroundImage: "url(" + art_pic_link + ")" }}
+      />
+      <p className="art_pic_fuente"> {art_pic_fuente}</p>
+      <p className="parag">
+        Villa Epecuén est un village en ruine situé à 500 km de Buenos Aires à
+        l’histoire est très intéressante.
+      </p>
     </div>
   );
 }

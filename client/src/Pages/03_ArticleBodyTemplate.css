@@ -15,3 +15,31 @@
 .ArticleBodyTemplate .regularEnphasis {
  font-weight: bold;
 }
+
+
+
+.ArticleBodyTemplate .art_pic_link {
+ max-width: 100%;
+}
+
+.ArticleBodyTemplate .art_pic_link {
+ margin-top: 1rem;
+ width: 100%;
+ aspect-ratio: calc(16/9);
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+.ArticleBodyTemplate .art_pic_fuente {
+ 
+ margin-inline: .5rem;
+ margin-top: .5rem;
+ font-size:.7rem;
+ font-style: italic;
+}
+
+
+.ArticleBodyTemplate .parag {
+ margin-inline: 1.2rem;
+ margin-block: 1.4rem;
+}
