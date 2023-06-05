@@ -1,4 +1,14 @@
 
+.ArticlesListBodyLanding {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ArticlesListBodyLandingContent {
+  width: 100%;
+  max-width: 900px;
+
+  }
 
 .articleVignetteLandingPage {
   cursor: pointer;

@@ -1,0 +1,22 @@
+.FooterMain {
+ padding-block: 2rem;
+ color: #eee;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ gap: .3rem;
+}
+
+.FooterMain a {
+ text-decoration: none;
+ color: rgb(189, 132, 243);
+}
+
+.separationHorizontale {
+ height: .05rem;
+ border-radius: .1rem;
+ background-color: #eee;
+ min-width: 300px;
+
+}
