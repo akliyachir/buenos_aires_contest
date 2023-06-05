@@ -42,4 +42,19 @@
 .ArticleBodyTemplate .parag {
  margin-inline: 1.2rem;
  margin-block: 1.4rem;
+ font-size: .8rem;
+ line-height: 1.8;
+}
+
+.ArticleBodyTemplate .ttl {
+ margin-inline: 1.2rem;
+ margin-block: 1.4rem;
+}
+
+
+.ArticleBodyTemplate ul {
+ margin-inline: 2.4rem;
+ margin-block: 1.4rem;
+ font-size: .8rem;
+ line-height: 1.8;
 }

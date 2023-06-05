@@ -1,7 +1,13 @@
 .GlobalRootContainer {
- height: 100vh;
+ min-height: 100%;
  width: 100%;
- z-index: 0;
  margin-top: 4rem;
 }
 
+
+.FooterMain {
+
+ background-color: #222;
+ bottom: 0;
+ height: 5rem;
+}
