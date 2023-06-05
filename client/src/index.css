@@ -9,9 +9,21 @@
 }
 
 body {
+  overflow-y: scroll;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+body::-webkit-scrollbar {
+  width: .4rem;
+  background-color:#fff;
+
+}
+body::-webkit-scrollbar-thumb {
+background-color: rgb(224, 224, 224);
+
 }
 
 .LogoHeader {
   font-family:"Barlow Condensed";
   }
+
