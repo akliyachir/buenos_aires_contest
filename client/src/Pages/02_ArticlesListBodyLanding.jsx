@@ -15,7 +15,6 @@ export default function ArticlesListBodyLanding() {
             style={{backgroundImage: "url(" + art_pic_link + ")"}}
             >
               <div className="artcileVignetteBlackFilter">
-
               <p className="art_title_tag">{art_title_tag}</p>
               <h4 className="art_title">{art_title}</h4>
               </div>

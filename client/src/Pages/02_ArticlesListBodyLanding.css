@@ -3,13 +3,34 @@
 }
 
 .articleVignetteLandingPage {
+  cursor: pointer;
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: top;
+transition: 300ms ease-in-out;
 
+  
+ }
+ 
+ .articleVignetteLandingPage:hover {
+transition: 300ms ease-in-out;
+background-position-y: -1.5rem;
+}
+
+.artcileVignetteBlackFilter {
  padding: 1rem;
  min-height: 10rem;
- background-repeat: no-repeat;
- background-size: cover;
- background-position: top;
- 
+ background-color: #00000066;
+ display: flex;
+ flex-direction: column;
+ justify-content: end;
+ align-items: start;
+ transition: 300ms ease-in-out;
+}
+
+.artcileVignetteBlackFilter:hover {
+ background-color: #00000099;
+ transition: 300ms ease-in-out;
 }
 
 .articleVignetteLandingPage .art_title_tag{
@@ -21,8 +42,10 @@ padding: .2rem .5rem;
 display: inline;
 }
 
+
+
 .articleVignetteLandingPage .art_title{
 color: #fff;
 font-size: 1.1rem;
-margin-top: .7rem;
+margin-top: .5rem;
 }
