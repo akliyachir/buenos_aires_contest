@@ -1,6 +1,4 @@
-.ArticlesListBodyLanding {
- background-color: darkgoldenrod;
-}
+
 
 .articleVignetteLandingPage {
   cursor: pointer;
@@ -8,6 +6,7 @@
   background-size:cover;
   background-position: top;
 transition: 300ms ease-in-out;
+margin-bottom: .2rem;
 
   
  }
