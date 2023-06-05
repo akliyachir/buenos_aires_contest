@@ -7,7 +7,7 @@
   art_pic_fuente: "Ph: Wikipedia Commons",
   art_by: "Eleonore Riffe",
   art_date: "02 juin 2023",
-  
+  art_content: "",
  }
 ];
 
