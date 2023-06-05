@@ -1,0 +1,28 @@
+.ArticlesListBodyLanding {
+ background-color: darkgoldenrod;
+}
+
+.articleVignetteLandingPage {
+
+ padding: 1rem;
+ min-height: 10rem;
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: top;
+ 
+}
+
+.articleVignetteLandingPage .art_title_tag{
+background-color: #000000aa;
+text-transform: uppercase;
+color: #fff;
+font-size: .7rem;
+padding: .2rem .5rem;
+display: inline;
+}
+
+.articleVignetteLandingPage .art_title{
+color: #fff;
+font-size: 1.1rem;
+margin-top: .7rem;
+}
