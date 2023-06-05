@@ -1,8 +1,15 @@
 .HeaderMain {
- background-color:#fff;
+ position:fixed;
+ z-index: 1;
+ top: 0;
+ left: 0;
+ right: 0;
+ height: 4rem;
+  background-color:#fff;
  padding: .5rem;
  padding-inline: 1.3rem;
 display: flex;
 justify-content: space-between;
 align-items: center;
+box-shadow: 1px 1px 10px #00000022;
 }

@@ -1,7 +1,17 @@
-.ArticleBodyTemplate {
-}
+
 
 .ArticleBodyTemplate .art_title {
  padding-top: 1.5rem;
- padding-left: 1rem;
+ padding-inline: 1.2rem;
+}
+
+.ArticleBodyTemplate .art_by {
+ margin-top: .7rem ;
+ padding-inline: 1.2rem;
+ font-size: .8rem;
+
+}
+
+.ArticleBodyTemplate .regularEnphasis {
+ font-weight: bold;
 }

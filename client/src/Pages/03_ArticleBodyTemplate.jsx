@@ -19,17 +19,9 @@ export default function ArticleBodyTemplate() {
   return (
     <div className="ArticleBodyTemplate">
       <h2 className="art_title">{art_title}</h2>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium
-        error aut debitis iure commodi temporibus eveniet consequuntur. Possimus
-        accusantium magni quis nulla est, incidunt eveniet rem dolor ex, labore
-        vitae.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium
-        error aut debitis iure commodi temporibus eveniet consequuntur. Possimus
-        accusantium magni quis nulla est, incidunt eveniet rem dolor ex, labore
-        vitae.
+      <p className="art_by">
+        by <span className="regularEnphasis">{art_by + `  `}</span>
+        <span>{`    ` + art_date}</span>
       </p>
     </div>
   );
